@@ -119,3 +119,7 @@ background: url(soc_g.gif) no-repeat;
 background: url(soc_g_act.gif) no-repeat;
 }
 
+.maps {
+    width: 350px;
+}
+

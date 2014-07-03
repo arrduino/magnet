@@ -20,7 +20,7 @@
     *margin-right: .3em;
     line-height: 48px;
     vertical-align: text-top;
-    background-image: url("../img/icons/glyphicons.png");
+    background-image: url("glyphicons.png");
     background-position: 48px 48px;
     background-repeat: no-repeat;
 }
@@ -33,7 +33,7 @@
     *margin-right: .3em;
     line-height: 14px;
     vertical-align: text-top;
-    background-image: url("../img/icons/glyphicons-white.png");
+    background-image: url("glyphicons-white.png");
     background-position: 14px 14px;
     background-repeat: no-repeat;
     background-size: 240px 864px;
@@ -51,7 +51,7 @@
     *margin-right: .3em;
     line-height: 14px;
     vertical-align: text-top;
-    background-image: url("../img/icons/glyphicons.png");
+    background-image: url("glyphicons.png");
     background-position: 14px 14px;
     background-repeat: no-repeat;
     background-size: 240px 864px;
@@ -1533,7 +1533,7 @@
 }
 
 .mini-white {
-  background-image: url("../img/icons/glyphicons-mini-white.png");
+  background-image: url("glyphicons-mini-white.png");
   opacity: 1;
 }
 
