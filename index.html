@@ -30,13 +30,13 @@ title: magnet
 	<!-- start: CSS -->
 	<link href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/bootstrap.css" rel="stylesheet" />
 	<link href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/bootstrap-responsive.css" rel="stylesheet" />
-	<link type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/style.css" rel="stylesheet" />
+	<link type="text/css" href="style/style.css" rel="stylesheet" />
 	<link type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/parallax-slider.css" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/css" />
 	<link rel="stylesheet" type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/css(1)" />
 	<link rel="stylesheet" type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/css(2)" />
 	<link rel="stylesheet" type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/css(3)" />
-	<link type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/styles.css" rel="stylesheet">
+	<link type="text/css" href="style/styles.css" rel="stylesheet">
 	<link type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/icons.css" rel="stylesheet">
 	<link type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/social-icons.css" rel="stylesheet">
 	<!-- end: CSS -->
@@ -68,33 +68,33 @@ title: magnet
 						<span class="icon-bar"></span>
 						</a>
 					<a class="brand" href="http://mag-net.kz">
-					<img class="logo" src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/logo.jpg" />
+					<img class="logo" src="logo.jpg" />
 					</a>
 						<div class="nav-collapse collapse">
 						<ul class="nav">
-							<li class="active"><a href="http://bootstrapmaster.com/live/magnus/index.html">Главная</a></li>
-								<li><a href="http://bootstrapmaster.com/live/magnus/about.html">Айнур Мустафина</a></li>
+							<li class="active"><a href="#">Главная</a></li>
+								<li><a href="#">Айнур Мустафина</a></li>
 							<li class="dropdown">
-								<a href="http://bootstrapmaster.com/live/magnus/#" class="dropdown-toggle" data-toggle="dropdown">О нас<b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">О нас<b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="http://bootstrapmaster.com/live/magnus/icons.html">Услуги</a></li>
-									<li><a href="http://bootstrapmaster.com/live/magnus/typography.html">Стоимость</a></li>
-										<li><a href="http://bootstrapmaster.com/live/magnus/social-icons.html">Мы в соц сетях</a></li>
-									<li><a href="http://bootstrapmaster.com/live/magnus/shortcodes.html">Отзывы</a></li>
+									<li><a href="#">Статьи</a></li>
+									<li><a href="#">Полезное</a></li>
+									<li><a href="#">Отзывы</a></li>
 									<!--<li><a href="http://bootstrapmaster.com/live/magnus/list-styles.html">List Styles</a></li>-->
 								</ul>
 								</li>
-							<li class="dropdown">
+								<li><a href="#">Портфолио</a></li>
+							<!--<li class="dropdown">
 								<a href="http://bootstrapmaster.com/live/magnus/#" class="dropdown-toggle" data-toggle="dropdown">Портфолио<b class="caret"></b></a>
 								<ul class="dropdown-menu">
 										<li><a href="http://bootstrapmaster.com/live/magnus/portfolio3.html">3 Columns</a></li>
 									<li><a href="http://bootstrapmaster.com/live/magnus/portfolio4.html">4 Columns</a></li>
 								</ul>
-								</li>
-							<li><a href="http://bootstrapmaster.com/live/magnus/services.html">Статьи</a></li>
-							<li><a href="http://bootstrapmaster.com/live/magnus/pricing.html">Полезное</a></li>
+								</li>-->
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">Стоимость</a></li>
 							<!--<li><a href="http://bootstrapmaster.com/live/magnus/blog.html">Айнур Мустафина</a></li>-->
-								<li><a href="http://bootstrapmaster.com/live/magnus/contact.html">Контакты</a></li>
+							<li><a href="#">Контакты</a></li>
 						</ul>
 						</div>
 				</div>
@@ -112,7 +112,7 @@ title: magnet
 	<div class="images_bg">
 		<div class="iwf">
 			<span class="info-iwf">Наше агенство участник</span> "Международной свадебной федерации"
-			<img	src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/iwf-logo.png" width="200" height="200" />
+			<img	src="iwf-logo.png" width="200" height="200" />
 		</div>
 	</div>
 	</div>
@@ -148,100 +148,12 @@ title: magnet
 									</a>
 									<div class="item-description">
 										<h4><a href="{{item.url}}">{{item.title}}</a></h4>
-										{{item.content}}
+										<p>{{item.content}}</p>
 									</div>
 								</div>
 							</div>
 							<hr class="visible-phone" />
 						{% endfor %}
-
-
-
-						<div class="span3">
-
-							<div class="picture">
-								<a href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/car2.jpg" rel="image" title="Михаил и Юлия">
-									<img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/car2.jpg" />
-									<div class="image-overlay-zoom"></div>
-								</a>
-								<div class="item-description">
-									<h4><a href="http://bootstrapmaster.com/live/magnus/#">Михаил и Юлия</a></h4>
-									<p>Великолепная церемония бракосочетания Михаила и Юлии от M.A.G.Net Wedding на частной территории . Сочетания Различных оттенков фиолетового дополнил стиль самой свадьбы.</p>
-								</div>
-							</div>
-
-						</div>
-
-						<hr class="visible-phone" />
-
-						<div class="span3">
-
-							<div class="picture">
-								<a href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/car3.jpg" rel="image" title="Михаил и Юлия">
-									<img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/car3.jpg" />
-									<div class="image-overlay-zoom"></div>
-								</a>
-								<div class="item-description">
-									<h4><a href="http://bootstrapmaster.com/live/magnus/#">Михаил и Юлия</a></h4>
-									<p>Великолепная церемония бракосочетания Михаила и Юлии от M.A.G.Net Wedding на частной территории . Сочетания Различных оттенков фиолетового дополнил стиль самой свадьбы.</p>
-								</div>
-							</div>
-
-						</div>
-
-
-						<hr class="visible-phone" />
-
-						<div class="span3">
-
-							<div class="picture">
-								<a href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/car3.jpg" rel="image" title="Михаил и Юлия">
-									<img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/car3.jpg" />
-									<div class="image-overlay-zoom"></div>
-								</a>
-								<div class="item-description">
-									<h4><a href="http://bootstrapmaster.com/live/magnus/#">Михаил и Юлия</a></h4>
-									<p>Великолепная церемония бракосочетания Михаила и Юлии от M.A.G.Net Wedding на частной территории . Сочетания Различных оттенков фиолетового дополнил стиль самой свадьбы.</p>
-								</div>
-							</div>
-
-						</div>
-
-						<hr class="visible-phone" />
-
-						<div class="span3">
-
-							<div class="picture">
-								<a href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/car2.jpg" rel="image" title="Михаил и Юлия" />
-									<img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/car2.jpg" />
-									<div class="image-overlay-zoom"></div>
-								</a>
-								<div class="item-description">
-									<h4><a href="http://bootstrapmaster.com/live/magnus/#">Михаил и Юлия</a></h4>
-									<p>Великолепная церемония бракосочетания Михаила и Юлии от M.A.G.Net Wedding на частной территории . Сочетания Различных оттенков фиолетового дополнил стиль самой свадьбы.</p>
-								</div>
-							</div>
-
-						</div>
-
-						<hr class="visible-phone" />
-
-						<div class="span3">
-
-							<div class="picture">
-								<a href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/car3.jpg" rel="image" title="Михаил и Юлия">
-									<img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/car3.jpg">
-									<div class="image-overlay-zoom"></div>
-								</a>
-								<div class="item-description">
-									<h4><a href="http://bootstrapmaster.com/live/magnus/#">Михаил и Юлия</a></h4>
-									<p>Великолепная церемония бракосочетания Михаила и Юлии от M.A.G.Net Wedding на частной территории . Сочетания Различных оттенков фиолетового дополнил стиль самой свадьбы.</p>
-								</div>
-							</div>
-
-						</div>
-
-
 
 					</div>
 					<!-- end: Row -->
@@ -282,11 +194,11 @@ title: magnet
 
 							<div class="testimonials">
 								<ul class="soc_list">
-									<li class="lj"><a target="_blank" href="http://idealnaya-olga.livejournal.com/">LiveJournar</a></li>
-									<li class="vk"><a target="_blank" href="http://vk.com/public31733145">Vkontakte</a></li>
-									<li class="tw"><a target="_blank" href="http://twitter.com/#!/idealnayasvadba">Twitter</a></li>
-									<li class="fb"><a target="_blank" href="http://www.facebook.com/weddingschool.ua">Facebook</a></li>
-									<li class="gp"><a target="_blank" href="https://plus.google.com/u/0/103666828747184476840/posts">Google+</a></li>
+									<li class="lj"><a target="_blank" href="#">LiveJournar</a></li>
+									<li class="vk"><a target="_blank" href="http://vk.com/magnet.event">Vkontakte</a></li>
+									<li class="tw"><a target="_blank" href="#">Twitter</a></li>
+									<li class="fb"><a target="_blank" href="https://www.facebook.com/profile.php?id=100006916511980">Facebook</a></li>
+									<li class="gp"><a target="_blank" href="#">Google+</a></li>
 								</ul>
 							</div>
 
@@ -350,7 +262,7 @@ title: magnet
 							<div class="row">
 
 								<div class="span-comment">
-									<div class="picture">
+									<div class="picture-comment">
 										<img class="img-circle" src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/review-img.jpg" />
 									</div>
 									<div class="item-description">
@@ -360,7 +272,7 @@ title: magnet
 								</div>
 
 								<div class="span-comment">
-									<div class="picture">
+									<div class="picture-comment">
 										<img class="img-circle" src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/review-img.jpg" />
 									</div>
 									<div class="item-description">
@@ -370,7 +282,7 @@ title: magnet
 								</div>
 
 								<div class="span-comment">
-									<div class="picture">
+									<div class="picture-comment">
 										<img class="img-circle" src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/review-img.jpg" />
 									</div>
 									<div class="item-description">
@@ -380,7 +292,7 @@ title: magnet
 								</div>
 
 								<div class="span-comment">
-									<div class="picture">
+									<div class="picture-comment">
 										<img class="img-circle" src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/review-img.jpg" />
 									</div>
 									<div class="item-description">
@@ -409,7 +321,7 @@ title: magnet
 				<!-- end: Row -->
 				<div class="clearfix"></div>
 				<hr class="clean" />
-				<div class="contact">Если вы любите наши работы и Вы хотите индивидуальное предложение, свяжитесь с нами.<i class="ico-envelope ico-white"></i>a@magnet.kz<i class="ico-iphone ico-white"></i>+7 701 930 40 30</div>
+				<div class="contact">Если вы любите наши работы и Вы хотите индивидуальное предложение, свяжитесь с нами.<i class="ico-envelope ico-white"></i><a href="mailto:a@magnet.kz">a@magnet.kz</a><i class="ico-iphone ico-white"></i><a href="callto:+7 701 930 40 30">+7 701 930 40 30</a></div>
 
 			</div>
 
@@ -419,31 +331,31 @@ title: magnet
 
 			<!-- start Clients List -->
 			<div class="clients-carousel">
-
-
-
-			<div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides clients" style="width: 4000%; -webkit-transition: 0s; transition: 0s; -webkit-transform: translate3d(-585px, 0, 0);">
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/1.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/2.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/3.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/4.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/5.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/6.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/7.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/8.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/9.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/10.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/1.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/2.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/3.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/4.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/5.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/6.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/7.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/8.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/9.png" alt=""></li>
-					<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/10.png" alt=""></li>
-				</ul></div></div>
+				<div class="flex-viewport" style="overflow: hidden; position: relative;">
+					<ul class="slides clients" style="width: 4000%; -webkit-transition: 0s; transition: 0s; -webkit-transform: translate3d(-585px, 0, 0);">
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/1.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/2.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/3.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/4.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/5.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/6.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/7.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/8.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/9.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/10.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/1.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/2.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/3.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/4.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/5.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/6.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/7.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/8.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/9.png" alt=""></li>
+						<li style="width: 144.25px; float: left; display: block;"><img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/10.png" alt=""></li>
+					</ul>
+				</div>
+			</div>
 			<!-- end Clients List -->
 
 			<hr />
@@ -504,7 +416,7 @@ title: magnet
 
 				<div class="span4">
 					<h3>Схема проезда:</h3>
-					<img src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/maps.png" alt=""/>
+					<img src="maps.jpg" alt=""/>
 				</div>
 
 			</div>
@@ -534,15 +446,15 @@ title: magnet
 
 						<ul id="footer-nav">
 
-							<li><a href="http://bootstrapmaster.com/live/magnus/index.html">Главная</a></li>
+							<li><a href="#">Айнур Мустафина</a></li>
 
-							<li><a href="http://bootstrapmaster.com/live/magnus/about.html">О нас</a></li>
+							<li><a href="#">О нас</a></li>
 
-							<li><a href="http://bootstrapmaster.com/live/magnus/services.html">Услуги</a></li>
+							<li><a href="#">Услуги</a></li>
 
-							<li><a href="http://bootstrapmaster.com/live/magnus/pricing.html">Стоимость</a></li>
+							<li><a href="#">Стоимость</a></li>
 
-							<li><a href="http://bootstrapmaster.com/live/magnus/contact.html">Контакты</a></li>
+							<li><a href="#">Контакты</a></li>
 
 						</ul>
 

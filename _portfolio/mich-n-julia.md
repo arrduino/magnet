@@ -1,6 +1,6 @@
 ---
-title: Михаилs и Юлияs
-image: ./MAGNUS%20BOOTSTRAP%20THEME%20by%20creativeLabs_files/car.jpg
+title: Михаил и Юлия
+image: portfolio_images/mich-n-julia.jpg
 ---
 
 Великолепная церемония бракосочетания Михаила и Юлии от M.A.G.Net Wedding на частной территории. Сочетания Различных оттенков фиолетового дополнил стиль самой свадьбы.
