@@ -25,17 +25,13 @@
   <!-- end: Facebook Open Graph -->
 
   <!-- start: CSS -->
-  <link href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/bootstrap.css" rel="stylesheet" />
-  <link href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/bootstrap-responsive.css" rel="stylesheet" />
-  <link type="text/css" href="style/style.css" rel="stylesheet" />
-  <link type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/parallax-slider.css" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/css" />
-  <link rel="stylesheet" type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/css(1)" />
-  <link rel="stylesheet" type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/css(2)" />
-  <link rel="stylesheet" type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/css(3)" />
-  <link type="text/css" href="style/styles.css" rel="stylesheet">
-  <link type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/icons.css" rel="stylesheet">
-  <link type="text/css" href="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/social-icons.css" rel="stylesheet">
+  <link href="/style/bootstrap.css" rel="stylesheet" />
+  <link href="/style/bootstrap-responsive.css" rel="stylesheet" />
+  <link type="text/css" href="/style/style.css" rel="stylesheet" />
+  <link type="text/css" href="/style/parallax-slider.css" rel="stylesheet" />
+  <link type="text/css" href="/style/styles.css" rel="stylesheet">
+  <link type="text/css" href="/style/icons.css" rel="stylesheet">
+  <link type="text/css" href="/MAGNUS BOOTSTRAP THEME by creativeLabs_files/social-icons.css" rel="stylesheet">
   <!-- end: CSS -->
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -49,8 +45,219 @@
   <![endif]-->
 </head>
 <body>
+<!--start: Header -->
+  <header>
 
-  {{content}}
+    <!--start: Container -->
+    <div class="container">
+
+      <!--start: Navigation -->
+      <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </a>
+          <a class="brand" href="http://mag-net.kz">
+          <img class="logo" src="/logo.jpg" />
+          </a>
+            <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Главная</a></li>
+                <li><a href="#">Айнур Мустафина</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">О нас<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Статьи</a></li>
+                  <li><a href="#">Полезное</a></li>
+                  <li><a href="#">Отзывы</a></li>
+                  <!--<li><a href="http://bootstrapmaster.com/live/magnus/list-styles.html">List Styles</a></li>-->
+                </ul>
+                </li>
+                <li><a href="#">Портфолио</a></li>
+              <!--<li class="dropdown">
+                <a href="http://bootstrapmaster.com/live/magnus/#" class="dropdown-toggle" data-toggle="dropdown">Портфолио<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="http://bootstrapmaster.com/live/magnus/portfolio3.html">3 Columns</a></li>
+                  <li><a href="http://bootstrapmaster.com/live/magnus/portfolio4.html">4 Columns</a></li>
+                </ul>
+                </li>-->
+              <li><a href="#">Услуги</a></li>
+              <li><a href="#">Стоимость</a></li>
+              <!--<li><a href="http://bootstrapmaster.com/live/magnus/blog.html">Айнур Мустафина</a></li>-->
+              <li><a href="#">Контакты</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+      <!--end: Navigation -->
+
+    </div>
+    <!--end: Container-->
+
+  </header>
+  <!--end: Header-->
+  <!-- start: Slider -->
+  <div class="images">
+    <div class="images_bg">
+      <div class="iwf">
+        <span class="info-iwf">Наше агенство участник</span> "Международной свадебной федерации"
+        <img  src="/iwf-logo.png" width="200" height="200" />
+      </div>
+    </div>
+  </div>
+
+  <div id="wrapper">
+    <div class="container">
+      <hr />
+      {{content}}
+    </div>
+  </div>
+
+  <div id="footer">
+    <!-- start: Container -->
+    <div class="container">
+
+      <!-- start: Row -->
+      <div class="row">
+
+        <!-- start: About -->
+        <div class="span3">
+
+          <h3>Контакты</h3>
+
+          <p>
+            <i class="mini-ico-map-marker mini-white"></i>  г. Алматы адрес Горная 9г, 301 офис
+          </p>
+          <p>
+            <i class="ico-z-iphone"></i> +7 727 328 71 42, +7 701 930 40 30
+          </p>
+          <p>
+            <i class="mini-ico-envelope mini-white"></i> Email: a@magnet.kz
+          </p>
+          <p>
+            <i class="mini-ico-globe mini-white"></i> Web: mag-net.kz
+          </p>
+
+        </div>
+        <!-- end: About -->
+
+
+        <!-- start: Follow Us -->
+        <div class="span3">
+
+          <h3>Мы в сетях</h3>
+
+          <div id="social-r" class="tooltips">
+            <a href="#" rel="tooltip" title="Facebook" class="facebook">Facebook</a>
+            <a href="#" rel="tooltip" title="Google Plus" class="googleplus">Google Plus</a>
+            <a href="#" rel="tooltip" title="Skype" class="skype">Skype</a>
+            <a href="#" rel="tooltip" title="YouTube" class="youtube">YouTube</a>
+            <a href="#" rel="tooltip" title="vkontakte" class="vkontakte">vkontakte</a>
+            <a href="#" rel="tooltip" title="Twitter" class="twitter">Twitter</a>
+          </div>
+
+        </div>
+        <!-- end: Follow Us -->
+
+        <div class="span4">
+          <h3>Схема проезда:</h3>
+          <img src="/maps.jpg" alt=""/>
+        </div>
+
+      </div>
+      <!-- end: Row -->
+
+    </div>
+    <!-- end: Container -->
+  </div>
+  <!-- end: Footer -->
+
+  <!-- start: Footer Menu -->
+  <div id="footer-menu" class="hidden-tablet hidden-phone">
+
+    <!-- start: Container -->
+    <div class="container">
+
+      <!-- start: Row -->
+      <div class="row">
+
+
+
+        <!-- start: Footer Menu Links-->
+        <div class="span9">
+
+          <div id="footer-menu-links">
+
+            <ul id="footer-nav">
+
+              <li><a href="#">Айнур Мустафина</a></li>
+
+              <li><a href="#">О нас</a></li>
+
+              <li><a href="#">Услуги</a></li>
+
+              <li><a href="#">Стоимость</a></li>
+
+              <li><a href="#">Контакты</a></li>
+
+            </ul>
+
+          </div>
+
+        </div>
+        <!-- end: Footer Menu Links-->
+
+        <!-- start: Footer Menu Back To Top -->
+        <div class="span1">
+
+          <div id="footer-menu-back-to-top">
+            <a href="http://bootstrapmaster.com/live/magnus/#"></a>
+          </div>
+
+        </div>
+        <!-- end: Footer Menu Back To Top -->
+
+      </div>
+      <!-- end: Row -->
+
+    </div>
+    <!-- end: Container -->
+
+  </div>
+  <!-- end: Footer Menu -->
+
+  <!-- start: Copyright -->
+  <div id="copyright">
+
+    <!-- start: Container -->
+
+      <div class="sixteen columns">
+        <p>
+          "Все материалы на данном сайте защищены авторскими правами. Запрещено использование для продажи или перепечатки, для публикации в журналах и других изданиях, для конкурсов или для использования в мастер-классах. Спасибо за уважение моих авторских прав! При копировании любых материалов активная ссылка на мой сайт обязательна! Копирование запрещено без разрешения автора! "
+        </p>
+      </div>
+    <!-- end: Container -->
+
+  </div>
+  <!-- end: Copyright -->
+
+<!-- start: Java Script -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/jquery-1.8.2.js"></script>
+<script src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/isotope.js"></script>
+<script src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/jquery.imagesloaded.js"></script>
+<script src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/bootstrap.js"></script>
+<script src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/flexslider.js"></script>
+<script src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/carousel.js"></script>
+<script src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/jquery.cslider.js"></script>
+<script src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/slider.js"></script>
+<script src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/fancybox.js"></script>
+<script src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/twitter.js"></script>
+<script defer="defer" src="./MAGNUS BOOTSTRAP THEME by creativeLabs_files/custom.js"></script>
+<!-- end: Java Script -->
+
 
 </body>
 </html>

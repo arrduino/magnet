@@ -1,0 +1,38 @@
+<div class="testimonial-container">
+  <div class="title-out title-name">
+    <h3>Наши контакты</h3>
+  </div>
+
+  <div class="testimonials">
+    <i class="icon-map-marker"></i> г. Алматы адрес Горная 9г, 301 офис<br />
+    Позвоните нам и запишитесь на встречу: +7 727 <span class="number">328 71 42</span>;
+    +7 701<span class="number"> 930 40 30</span>
+  </div>
+</div>
+
+<div class="testimonial-container">
+  <div class="title-out title-name">
+    <h3>Статьи</h3>
+  </div>
+
+  {% for post in site.posts %}
+    <div class="testimonials">
+      <a href="{{post.url}}">{{post.title}}</a>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="testimonial-container">
+  <div class="title-out title-name">
+    <h3>Мы в соц. сетях</h3>
+  </div>
+  <div class="testimonials">
+    <ul class="soc_list">
+      <li class="lj"><a target="_blank" href="#">LiveJournar</a></li>
+      <li class="vk"><a target="_blank" href="http://vk.com/magnet.event">Vkontakte</a></li>
+      <li class="tw"><a target="_blank" href="#">Twitter</a></li>
+      <li class="fb"><a target="_blank" href="https://www.facebook.com/profile.php?id=100006916511980">Facebook</a></li>
+      <li class="gp"><a target="_blank" href="#">Google+</a></li>
+    </ul>
+  </div>
+</div>
